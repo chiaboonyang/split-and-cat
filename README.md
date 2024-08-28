@@ -1,6 +1,6 @@
 # split-and-cat
 
-Transferring files through USB and Citrix sometimes results in corrupted copies or timeout problems, and this problem is exacerbated when the files are large. To reduce the occurrences of such problems, I recommend to split large files into smaller chunks at the source before copying on the transfer medium (via robocopy if possible), and then concatenating the chunks into the original file at the target.
+Transferring files through USB and Citrix sometimes results in corrupted copies or timeout problems, and this problem is exacerbated when the files are large. To reduce the occurrences of such problems, it is recommend to split large files into smaller chunks at the source before copying on the transfer medium (via robocopy if possible), and then rebuilding the original file from the chunks at the target.
 
 In this example, a large file of 13,905,249,504 bytes is used.
 
