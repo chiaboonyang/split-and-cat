@@ -15,7 +15,7 @@ The command populates the current directory with an additional 14 file chunks. T
 Use GUI or `robocopy` to copy the file chunks onto the transfer medium.
 
 ## Cat The File Chunks
-The `cat` command concatenate files and print on the standard output. This command rebuilds the original file from the chunks for this specific example.
+The `cat` command concatenate files and print on the standard output. This command rebuilds the original file from the file chunks for this specific example.
 
     cat x00 x01 x02 x03 x04 x05 x06 x07 x08 x09 x10 x11 x12 x13 > filename2.tar
 
