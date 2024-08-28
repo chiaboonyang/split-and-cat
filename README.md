@@ -9,7 +9,7 @@ The `split` command splits the large file into chunks of 1GB as denoted by the `
 
     split filename1.tar --bytes 1GB -d
 
-The command populates the current directory with an additional 14 file chunks. The first 13 chunks are 1,000,000,000 bytes each while the last chunk is 905,249,504 bytes.The file chunks are named sequentially, from `x00`, `x01`, `x02`, ... to `x13`.
+The command populates the current directory with an additional 14 file chunks. The first 13 chunks are 1,000,000,000 bytes each while the last chunk is 905,249,504 bytes. The file chunks are named sequentially, from `x00`, `x01`, `x02`, ... to `x13`.
 
 ## Copy The File Chunks
 Use GUI or `robocopy` to copy the file chunks onto the transfer medium.
